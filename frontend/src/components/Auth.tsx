@@ -1,9 +1,9 @@
 
 
-import {  SignupInput } from '@pemdorjee11/medium-common';
-import  { ChangeEvent, useState } from 'react'
+// import {  SignupInput } from '@pemdorjee11/medium-common';
+// import  { ChangeEvent, useState } from 'react'
 
-import AuthHeader from './AuthHeader';
+// import AuthHeader from './AuthHeader';
 import SigninCard from './SigninCard';
 import SignupCard from './SignupCard';
 
