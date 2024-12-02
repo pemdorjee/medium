@@ -1,0 +1,12 @@
+{
+  "name": "@pemdorjee11/medium-common",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
