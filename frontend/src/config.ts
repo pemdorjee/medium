@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://medium-pink-seven.vercel.app/"; 
+export const BACKEND_URL = "https://medium-pink-seven.vercel.app"; 
