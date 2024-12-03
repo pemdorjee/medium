@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://medium-pink-seven.vercel.app/"; // Use your custom domain, not the Vercel domain
+export const BACKEND_URL = "https://medium-pink-seven.vercel.app/"; 
