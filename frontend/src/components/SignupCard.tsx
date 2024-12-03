@@ -17,12 +17,8 @@ function SignupCard() {
     })
     async function sendRequest () {
         try{
-            console.log("hello from sendrequest")
-            console.log(postInputs)
             const response = await axios.post (`${BACKEND_URL}/api/v1/user/signup`,postInputs)
-            console.log(axios.defaults.baseURL);
             const jwt = response.data;
-            console.log(jwt)
             localStorage.setItem("token", jwt);
             navigate('/blogs')
         }catch(error){
