@@ -11,7 +11,7 @@ const app = new Hono<{
   }
 }> ()
 app.use('/*', cors({
-  origin: 'https://medium-pink-seven.vercel.app', 
+  origin: 'https://medium-9ux7h1y4e-pem-dorjees-projects.vercel.app', 
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
   allowHeaders: ['Content-Type', 'Authorization'], 
 }))
@@ -22,5 +22,6 @@ app.route('/api/v1/blog',blogRouter);
 app.get('/new', (c) =>{
   return c.text ("gand marao")
 })
+app.options('*', cors());
 
 export default app
