@@ -1,1 +1,1 @@
-export const BACKEND_URL="https://medium.pdsherpa.in"
+export const BACKEND_URL="medium-pink-seven.vercel.app"
