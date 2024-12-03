@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" }, // Keep API routes as they are
-    { "source": "/(.*)", "destination": "/index.html" } // Rewrite all other requests to index.html
+    { "source": "/api/(.*)", "destination": "/api/$1" }, 
+    { "source": "/(.*)", "destination": "/index.html" } 
   ]
 }
