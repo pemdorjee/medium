@@ -10,7 +10,11 @@ const app = new Hono<{
     JWT_SECRET: string
   }
 }> ()
-app.use('/*', cors())
+app.use('/*', cors({
+  origin: 'https://medium-2et67ehcq-pem-dorjees-projects.vercel.app', 
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
+  allowHeaders: ['Content-Type', 'Authorization'], 
+}))
 
 app.route('/api/v1/user', userRouter);
 
