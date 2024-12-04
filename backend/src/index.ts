@@ -11,7 +11,7 @@ const app = new Hono<{
   }
 }> ()
 app.use('/*', cors({
-  origin: '*', 
+  origin: 'medium-pink-seven.vercel.app', 
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
   allowHeaders: ['Content-Type', 'Authorization'], 
 }))
