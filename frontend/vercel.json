@@ -15,7 +15,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://medium-rj6f28sl1-pem-dorjees-projects.vercel.app" 
+          "value": "*" 
         },
         {
           "key": "Access-Control-Allow-Methods",

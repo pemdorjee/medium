@@ -18,6 +18,6 @@ app.route('/api/v1/blog',blogRouter);
 app.get('/new', (c) =>{
   return c.text ("gand marao")
 })
-app.options('*', cors());
+
 
 export default app
