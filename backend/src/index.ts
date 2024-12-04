@@ -10,14 +10,15 @@ const app = new Hono<{
     JWT_SECRET: string
   }
 }> ()
-app.use('/*', cors())
+app.use('/*', cors({
+  origin: '*', 
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
+  allowHeaders: ['Content-Type', 'Authorization'], 
+}))
 
 app.route('/api/v1/user', userRouter);
 
 app.route('/api/v1/blog',blogRouter);
-app.get('/new', (c) =>{
-  return c.text ("gand marao")
-})
 
 
 export default app
