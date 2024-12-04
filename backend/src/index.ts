@@ -11,7 +11,7 @@ const app = new Hono<{
   }
 }> ()
 app.use('/*', cors({
-  origin: 'https://medium-9ux7h1y4e-pem-dorjees-projects.vercel.app', 
+  origin: ' https://medium-kkbnmktcu-pem-dorjees-projects.vercel.app', 
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
   allowHeaders: ['Content-Type', 'Authorization'], 
 }))
